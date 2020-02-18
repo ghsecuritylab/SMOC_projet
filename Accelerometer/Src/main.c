@@ -153,9 +153,9 @@ int main(void)
     	      }
     	      else
     	      {
-				HAL_UART_Transmit( &huart3, ["X", (char)xval], 1, 1000 );
-				HAL_Delay(10);
-			  }
+              HAL_UART_Transmit( &huart3, ["X", (char)xval], 1, 1000 );
+              HAL_Delay(10);
+            }
     	    }
     	    else
     	    {
@@ -175,11 +175,6 @@ int main(void)
       	        HAL_Delay(10);
     	      }
     	    }
-
-    	    // BSP_LED_Off(LD3_Pin);
-    	    // BSP_LED_Off(LD4_Pin);
-    	    // BSP_LED_Off(LD5_Pin);
-    	    // BSP_LED_Off(LD6_Pin);
       }
   }
   /* USER CODE END 3 */
